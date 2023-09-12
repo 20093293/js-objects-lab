@@ -18,3 +18,19 @@ console.log(
       "-" +
       aCar.registration.num
   );
+
+aCar.mileage = 10000
+aCar.color = {
+  exterior: "red",
+  interior: { texture: "leather", shade: "cream" }
+}
+
+console.log(
+  "It is a " +
+    aCar.color.exterior +
+    " car, " +
+    aCar.mileage +
+    " mileage, with a " +
+    aCar.color.interior.texture +
+    " interior."
+);
